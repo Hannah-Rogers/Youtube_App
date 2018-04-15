@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("joris-berthelot-561619-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* title style */
+.title {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #69D9C9;
+}
+
+
+/* Thumbnail search CSS */
+
+#search-results {
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  width: 50%;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+
+.submit {
+  border: none;
+  outline: none;
+  background: rgba (255, 255, 255, 0.5);
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #9AD3D9;
+}
+
+.submit:hover {
+  background: #69D9C9;
+  color: #ffffff;
+}
+
+.results {
+  margin-top: 100px;
+  background-color: #ffffff;
+}
