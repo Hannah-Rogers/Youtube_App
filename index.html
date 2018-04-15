@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Youtube API search</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<header role="banner">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="title">Search YouTube Videos</h1>
+      </div>
+    </div>
+</header>
+
+<body>
+  <div class="container clearfix">
+    <form id="search-term" class="col-xs-12" align="center">
+      <input id="query" type="text" class="col-6" placeholder="Enter Search Term Here"></input><br />
+      <input id="button" type="submit" class="submit col-3"></input>
+    </form>
+  <div id="search-results" class="results col-12"></div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
